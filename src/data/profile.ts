@@ -18,7 +18,7 @@ export const profile = {
   linkedinHandle: "in/jonatharv26",
   github: "https://github.com/Jonathanr26",
   githubHandle: "Jonathanr26",
-  site: "https://jonathanrodriguez.dev",
+  site: "https://jonathanrv.vercel.app",
 } as const;
 
 export const sectionIds = ["top", "work", "builds", "stack", "code", "contact"] as const;

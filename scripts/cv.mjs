@@ -31,6 +31,7 @@ export function html(copy) {
     escape(profile.phone),
     `<a href="${profile.linkedin}">${profile.linkedinHandle}</a>`,
     `<a href="${profile.github}">github.com/${profile.githubHandle}</a>`,
+    `<a href="${profile.site}">${profile.site.replace(/^https:\/\//, "")}</a>`,
     `${escape(copy.location)} &middot; ${escape(copy.workMode)}`,
   ].join('<span class="sep">|</span>');
 
@@ -67,7 +68,7 @@ export function html(copy) {
     /* Largest size that still fits one A4 page in BOTH languages. Spanish runs about
        4% longer, so it is the binding constraint. Re-solve this by sweeping sizes
        against real PDF page counts when content grows; pnpm check enforces it. */
-    font: 9.2pt/1.34 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 9.1pt/1.32 "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #15181c;
     -webkit-print-color-adjust: exact;
     /* An fi ligature makes "fintech" and "confidencial" unsearchable once an ATS
