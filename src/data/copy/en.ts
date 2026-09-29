@@ -55,11 +55,11 @@ export const en: Copy = {
       place: "Remote",
       current: true,
       bullets: [
-        "Built a B2B fintech dashboard from zero in Next.js 15 (corporate cards, SPEI transfers, commissions, reporting) and worked on its React Native (Expo) app for real-time movements and transfers.",
-        "Secured it with JWT in HttpOnly cookies, middleware route guards, silent session renewal and role-based access control.",
+        "Architected and built the web frontend of a B2B fintech dashboard from zero in Next.js 15 (corporate cards, SPEI transfers, commissions, reporting), and shipped features for its React Native (Expo) app with real-time movements and transfers.",
+        "Shipped the full frontend of a commissions platform in Next.js 16 and React 19: 5 modules (admin, client, beneficiary, movements, schemas) with state on Zustand.",
+        "Built the card subscription and tokenization flow for recurring charges in 2 products, and the frontend for both portals (internal team and client) of a compliance platform.",
+        "Secured the web app with JWT in HttpOnly cookies, middleware route guards, silent session renewal and role-based access control.",
         "Contributed to the NestJS backend (Clean Architecture / DDD): refresh-token auth, user and role management, Dock gateway integration, OTP and TOTP 2FA, webhooks, PDF reports.",
-        "Shipped the full frontend of a commissions platform in Next.js 16 and React 19 — admin, client, beneficiary, movement and schema modules on Zustand.",
-        "Built the card subscription and tokenization flow for recurring charges across two products, and a compliance platform with separate portals for the internal team and the client.",
         "Covered that backend with Jest unit tests across use cases, services, repositories and auth guards.",
       ],
     },
@@ -71,10 +71,10 @@ export const en: Copy = {
       place: "Remote",
       bullets: [
         "Built and maintained Next.js dashboards for corporate credit card platforms: user management, transaction history, card controls.",
+        "Raised Lighthouse performance by over 60% on those dashboards by fixing LCP and CLS.",
+        "Refactored their frontend codebases into shared, reusable components and improved accessibility across the interfaces.",
         "Integrated the complete transaction flow against Dock APIs and SPEI.",
-        "Raised Lighthouse performance by over 60% by fixing LCP and CLS.",
         "Set up CI/CD on Bitbucket Pipelines for automated deploys.",
-        "Refactored frontend codebases toward reusable components and better accessibility.",
       ],
     },
     {
@@ -84,7 +84,7 @@ export const en: Copy = {
       period: "2023",
       place: "Colima, Mexico",
       bullets: [
-        "Built an internal IT service request system with automated approval workflows.",
+        "Built the web interface and backend of an internal IT service request system with automated approval workflows.",
         "Designed the backend API on Express.js and MS SQL Server.",
         "Gathered and validated requirements directly with non-technical stakeholders.",
       ],
@@ -188,6 +188,13 @@ export const en: Copy = {
     summary:
       "Full Stack Developer with 3+ years building scalable web and mobile applications across fintech, enterprise SaaS and education platforms. Full-cycle delivery, from architecture and frontend through backend API design and mobile apps. Strong focus on clean architecture, role-based security and reusable component design. Experienced in agile teams, CI/CD pipelines and AI-assisted development.",
     languages: "Spanish (native), English (working)",
+    frontend: {
+      file: "cv-frontend.pdf",
+      saveAs: "Jonathan-Rodriguez-CV-Frontend.pdf",
+      headline: "Frontend Developer / React / Next.js / TypeScript / React Native / Fintech",
+      summary:
+        "Frontend Developer with 3+ years building production dashboards in React, Next.js and TypeScript, mostly in fintech: corporate cards, SPEI transfers, commissions. Owns the interface end to end, from reusable components and role-based views to auth flows, performance (60%+ Lighthouse gain) and accessibility, plus React Native (Expo) mobile work. Comfortable in the NestJS and PostgreSQL API underneath. Agile teams, CI/CD, AI-assisted development.",
+    },
     labels: {
       summary: "Professional summary",
       experience: "Work experience",

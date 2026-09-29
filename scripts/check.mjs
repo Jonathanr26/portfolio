@@ -58,7 +58,7 @@ for (const key of ["statement", "intro", "contactAsk", "railTagline"]) {
 // The CV each language links to must exist, be one page, and carry a text layer
 // an ATS can read. Regenerate with `pnpm cv`.
 const cvFiles = [...(en + es).matchAll(/file:\s*"([^"]+\.pdf)"/g)].map((m) => m[1]);
-assert.equal(cvFiles.length, 2, `expected 2 CV files, found ${cvFiles.length}`);
+assert.equal(cvFiles.length, 4, `expected 4 CV files, found ${cvFiles.length}`);
 for (const f of cvFiles) {
   const url = new URL(`../public/${f}`, import.meta.url);
   assert.ok(existsSync(url), `public/${f} is missing — run pnpm cv`);

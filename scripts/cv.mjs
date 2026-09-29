@@ -2,7 +2,7 @@
  * Renders the CV to public/ as PDF, from the same data the site reads, so the two
  * can never drift. Chromium prints a real text layer, which is what an ATS parses.
  *
- * Usage: pnpm cv
+ * Usage: pnpm cv  (writes a full stack and a frontend-first CV per language)
  */
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -149,7 +149,9 @@ async function main() {
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  for (const copy of [en, es]) {
+  // Each language prints twice: full stack, then the frontend-first variant.
+  const variants = [en, es].flatMap((c) => [c, { ...c, cv: { ...c.cv, ...c.cv.frontend } }]);
+  for (const copy of variants) {
     await page.setContent(html(copy), { waitUntil: "load" });
     const pdf = await page.pdf({ format: "A4", printBackground: true, preferCSSPageSize: true });
     writeFileSync(out(copy.cv.file), pdf);

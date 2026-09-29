@@ -55,11 +55,11 @@ export const es: Copy = {
       place: "Remoto",
       current: true,
       bullets: [
-        "Construí desde cero un dashboard fintech B2B en Next.js 15 (tarjetas corporativas, transferencias SPEI, comisiones, reportes) y trabajé en su app móvil de React Native (Expo) con movimientos y transferencias en tiempo real.",
-        "Lo aseguré con JWT en cookies HttpOnly, guardas de ruta en middleware, renovación silenciosa de sesión y control de acceso por rol.",
+        "Diseñé y construí desde cero el frontend de un dashboard fintech B2B en Next.js 15 (tarjetas corporativas, SPEI, comisiones, reportes) y funcionalidades de su app React Native (Expo) con movimientos en tiempo real.",
+        "Entregué el frontend completo de una plataforma de comisiones en Next.js 16 y React 19: 5 módulos (administrador, cliente, beneficiario, movimientos, esquemas) con estado en Zustand.",
+        "Construí el flujo de suscripción y tokenización de tarjetas para cobro recurrente en 2 productos, y el frontend de los dos portales (equipo interno y cliente) de una plataforma de compliance.",
+        "Aseguré la app web con JWT en cookies HttpOnly, guardas de ruta en middleware, renovación silenciosa de sesión y control de acceso por rol.",
         "Aporté al backend en NestJS (Clean Architecture / DDD): autenticación con refresh token, gestión de usuarios y roles, integración con el gateway de Dock, 2FA por OTP y TOTP, webhooks y reportes en PDF.",
-        "Entregué el frontend completo de una plataforma de comisiones en Next.js 16 y React 19: módulos de administrador, cliente, beneficiario, movimientos y esquemas, con Zustand.",
-        "Construí el flujo de suscripción y tokenización de tarjetas para cobro recurrente en dos productos, y una plataforma de compliance con portales separados para equipo interno y cliente.",
         "Cubrí ese backend con pruebas unitarias en Jest, sobre casos de uso, servicios, repositorios y guardas de autenticación.",
       ],
     },
@@ -71,10 +71,10 @@ export const es: Copy = {
       place: "Remoto",
       bullets: [
         "Construí y mantuve dashboards en Next.js para plataformas de tarjetas de crédito corporativas: gestión de usuarios, historial de transacciones y controles de tarjeta.",
+        "Subí más de 60% el desempeño en Lighthouse de esos dashboards corrigiendo LCP y CLS.",
+        "Refactoricé su frontend hacia componentes reutilizables y mejoré su accesibilidad.",
         "Integré el flujo completo de transacciones contra las APIs de Dock y SPEI.",
-        "Subí más de 60% el desempeño en Lighthouse corrigiendo LCP y CLS.",
         "Monté CI/CD en Bitbucket Pipelines para despliegues automáticos.",
-        "Refactoricé código de frontend hacia componentes reutilizables y mejor accesibilidad.",
       ],
     },
     {
@@ -84,7 +84,7 @@ export const es: Copy = {
       period: "2023",
       place: "Colima, México",
       bullets: [
-        "Construí un sistema interno de solicitudes de servicio de TI con flujos de aprobación automáticos.",
+        "Construí la interfaz web y el backend de un sistema interno de solicitudes de TI con aprobaciones automáticas.",
         "Diseñé la API del backend en Express.js y MS SQL Server.",
         "Levanté y validé requerimientos directamente con áreas no técnicas.",
       ],
@@ -188,6 +188,13 @@ export const es: Copy = {
     summary:
       "Full Stack Developer con más de 3 años construyendo aplicaciones web y móviles escalables en fintech, SaaS empresarial y plataformas educativas. Entrega de ciclo completo, de la arquitectura y el frontend al diseño de APIs y apps móviles. Enfoque en arquitectura limpia, seguridad por roles y componentes reutilizables. Experiencia en equipos ágiles, CI/CD y desarrollo asistido por IA.",
     languages: "Español (nativo), inglés (de trabajo)",
+    frontend: {
+      file: "cv-frontend-es.pdf",
+      saveAs: "Jonathan-Rodriguez-CV-Frontend-es.pdf",
+      headline: "Frontend Developer / React / Next.js / TypeScript / React Native / Fintech",
+      summary:
+        "Frontend Developer con más de 3 años construyendo dashboards en producción con React, Next.js y TypeScript, sobre todo en fintech: tarjetas corporativas, transferencias SPEI, comisiones. Interfaz de punta a punta: componentes reutilizables, vistas por rol, autenticación, desempeño (más de 60% en Lighthouse), accesibilidad y apps en React Native (Expo). Cómodo también en la API de NestJS y PostgreSQL. Equipos ágiles, CI/CD y desarrollo asistido por IA.",
+    },
     labels: {
       summary: "Resumen profesional",
       experience: "Experiencia laboral",

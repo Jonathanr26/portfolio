@@ -78,6 +78,8 @@ export type Copy = {
     headline: string;
     summary: string;
     languages: string;
+    /** Frontend-first variant: same data, different top third. */
+    frontend: { file: string; saveAs: string; headline: string; summary: string };
     labels: {
       summary: string;
       experience: string;
