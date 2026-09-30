@@ -14,7 +14,7 @@ export const en: Copy = {
 
   statement: "I build the dashboards people run a business from.",
   intro:
-    "Three years on the admin core of production systems: corporate cards and SPEI transfers, commissions, school records, internal approvals. The hard parts repeat — role-based access over data nobody should see by accident, auth that holds up, dense tables that stay fast. Deepest in fintech, but the engineering travels. Next.js and TypeScript on the front, NestJS and Postgres behind it.",
+    "Three years on the admin core of production systems: corporate cards, recurring payments, commissions, school records, internal approvals. The hard parts repeat — role-based access over data nobody should see by accident, auth that holds up, dense tables that stay fast. Deepest in fintech, but the engineering travels. Next.js and TypeScript on the front, NestJS and Postgres behind it.",
   cvLink: "Download CV",
   cardHint: "Click the card for my details.",
   cardTurnBack: "Turn back",
@@ -55,11 +55,11 @@ export const en: Copy = {
       place: "Remote",
       current: true,
       bullets: [
-        "Architected and built the web frontend of a B2B fintech dashboard from zero in Next.js 15 (corporate cards, SPEI transfers, commissions, reporting), and shipped features for its React Native (Expo) app with real-time movements and transfers.",
+        "Architected and built the web frontend of a B2B fintech dashboard from zero in Next.js 15 (corporate cards, recurring payments, commissions), and shipped features for its React Native (Expo) app with real-time movements.",
         "Shipped the full frontend of a commissions platform in Next.js 16 and React 19: 5 modules (admin, client, beneficiary, movements, schemas) with state on Zustand.",
-        "Built the card subscription and tokenization flow for recurring charges in 2 products, and the frontend for both portals (internal team and client) of a compliance platform.",
+        "Built card tokenization (Conekta iframe) and subscriptions for recurring charges in 2 products, and the frontend for both compliance portals (internal team and client).",
         "Secured the web app with JWT in HttpOnly cookies, middleware route guards, silent session renewal and role-based access control.",
-        "Contributed to the NestJS backend (Clean Architecture / DDD): refresh-token auth, user and role management, Dock gateway integration, OTP and TOTP 2FA, webhooks, PDF reports.",
+        "Contributed to the NestJS backend (Clean Architecture / DDD): refresh-token auth, user and role management, Conekta charges and webhooks, OTP and TOTP 2FA, PDF reports.",
         "Covered that backend with Jest unit tests across use cases, services, repositories and auth guards.",
       ],
     },
@@ -73,7 +73,7 @@ export const en: Copy = {
         "Built and maintained Next.js dashboards for corporate credit card platforms: user management, transaction history, card controls.",
         "Raised Lighthouse performance by over 60% on those dashboards by fixing LCP and CLS.",
         "Refactored their frontend codebases into shared, reusable components and improved accessibility across the interfaces.",
-        "Integrated the complete transaction flow against Dock APIs and SPEI.",
+        "Built and consumed RESTful and GraphQL APIs with JWT auth flows.",
         "Set up CI/CD on Bitbucket Pipelines for automated deploys.",
       ],
     },
@@ -95,7 +95,7 @@ export const en: Copy = {
     {
       name: "Corporate card platform",
       summary:
-        "Companies issue cards, move money over SPEI and pull their own reports out to PDF and Excel. Role-based views keep finance, admins and employees out of each other's data. The mobile app carries the same account, with movements and transfers in real time.",
+        "Companies issue cards, track transactions and pull reports to PDF and Excel. Role-based views keep finance, admins and employees out of each other's data. The mobile app carries the same account, with movements in real time.",
       scope: "Architecture, the whole web frontend, mobile feature work, part of the API",
       stack: ["Next.js 15", "CSS Modules", "Zustand", "React Native", "Expo", "NestJS", "PostgreSQL", "Redis", "AWS S3"],
     },
@@ -193,7 +193,7 @@ export const en: Copy = {
       saveAs: "Jonathan-Rodriguez-CV-Frontend.pdf",
       headline: "Frontend Developer / React / Next.js / TypeScript / React Native / Fintech",
       summary:
-        "Frontend Developer with 3+ years building production dashboards in React, Next.js and TypeScript, mostly in fintech: corporate cards, SPEI transfers, commissions. Owns the interface end to end, from reusable components and role-based views to auth flows, performance (60%+ Lighthouse gain) and accessibility, plus React Native (Expo) mobile work. Comfortable in the NestJS and PostgreSQL API underneath. Agile teams, CI/CD, AI-assisted development.",
+        "Frontend Developer with 3+ years building production dashboards in React, Next.js and TypeScript, mostly in fintech: corporate cards, recurring payments, commissions. Owns the interface end to end, from reusable components and role-based views to auth flows, performance (60%+ Lighthouse gain) and accessibility, plus React Native (Expo) mobile work. Comfortable in the NestJS and PostgreSQL API underneath. Agile teams, CI/CD, AI-assisted development.",
     },
     labels: {
       summary: "Professional summary",

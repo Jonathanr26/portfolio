@@ -43,7 +43,7 @@ export const stackGroups = [
       "Prisma", "TypeORM", "PDFKit", "PHP", "Python",
     ],
   },
-  { id: "payments", items: ["Conekta", "Dock", "SPEI", "OTP / TOTP 2FA"] },
+  { id: "payments", items: ["Conekta", "Card tokenization", "Recurring charges", "Webhooks", "OTP / TOTP 2FA"] },
   { id: "data", items: ["PostgreSQL", "MongoDB", "MySQL", "MS SQL Server", "Redis"] },
   {
     id: "delivery",

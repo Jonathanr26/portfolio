@@ -14,7 +14,7 @@ export const es: Copy = {
 
   statement: "Construyo los dashboards donde se opera un negocio.",
   intro:
-    "Tres años en el núcleo administrativo de sistemas en producción: tarjetas corporativas y transferencias SPEI, comisiones, expedientes escolares, aprobaciones internas. Lo difícil se repite — acceso por rol sobre datos que nadie debería ver por accidente, autenticación que aguanta, tablas densas que siguen rápidas. Más profundo en fintech, pero la ingeniería se traslada. Next.js y TypeScript al frente, NestJS y Postgres detrás.",
+    "Tres años en el núcleo administrativo de sistemas en producción: tarjetas corporativas y cobros recurrentes, comisiones, expedientes escolares, aprobaciones internas. Lo difícil se repite — acceso por rol sobre datos que nadie debería ver por accidente, autenticación que aguanta, tablas densas que siguen rápidas. Más profundo en fintech, pero la ingeniería se traslada. Next.js y TypeScript al frente, NestJS y Postgres detrás.",
   cvLink: "Descargar CV",
   cardHint: "Haz clic en la tarjeta para ver mis datos.",
   cardTurnBack: "Voltear",
@@ -55,11 +55,11 @@ export const es: Copy = {
       place: "Remoto",
       current: true,
       bullets: [
-        "Diseñé y construí desde cero el frontend de un dashboard fintech B2B en Next.js 15 (tarjetas corporativas, SPEI, comisiones, reportes) y funcionalidades de su app React Native (Expo) con movimientos en tiempo real.",
+        "Diseñé y construí desde cero el frontend de un dashboard fintech B2B en Next.js 15 (tarjetas corporativas, cobros recurrentes, comisiones, reportes) y funcionalidades de su app React Native (Expo) con movimientos en tiempo real.",
         "Entregué el frontend completo de una plataforma de comisiones en Next.js 16 y React 19: 5 módulos (administrador, cliente, beneficiario, movimientos, esquemas) con estado en Zustand.",
-        "Construí el flujo de suscripción y tokenización de tarjetas para cobro recurrente en 2 productos, y el frontend de los dos portales (equipo interno y cliente) de una plataforma de compliance.",
+        "Construí tokenización de tarjetas (iframe de Conekta) y suscripciones para cobro recurrente en 2 productos, más el frontend de los dos portales (equipo interno y cliente) de una plataforma de compliance.",
         "Aseguré la app web con JWT en cookies HttpOnly, guardas de ruta en middleware, renovación silenciosa de sesión y control de acceso por rol.",
-        "Aporté al backend en NestJS (Clean Architecture / DDD): autenticación con refresh token, gestión de usuarios y roles, integración con el gateway de Dock, 2FA por OTP y TOTP, webhooks y reportes en PDF.",
+        "Aporté al backend en NestJS (Clean Architecture / DDD): autenticación con refresh token, gestión de usuarios y roles, cobros y webhooks con Conekta, 2FA por OTP y TOTP, y reportes en PDF.",
         "Cubrí ese backend con pruebas unitarias en Jest, sobre casos de uso, servicios, repositorios y guardas de autenticación.",
       ],
     },
@@ -73,7 +73,7 @@ export const es: Copy = {
         "Construí y mantuve dashboards en Next.js para plataformas de tarjetas de crédito corporativas: gestión de usuarios, historial de transacciones y controles de tarjeta.",
         "Subí más de 60% el desempeño en Lighthouse de esos dashboards corrigiendo LCP y CLS.",
         "Refactoricé su frontend hacia componentes reutilizables y mejoré su accesibilidad.",
-        "Integré el flujo completo de transacciones contra las APIs de Dock y SPEI.",
+        "Creé y consumí APIs RESTful y GraphQL con flujos de autenticación JWT.",
         "Monté CI/CD en Bitbucket Pipelines para despliegues automáticos.",
       ],
     },
@@ -95,7 +95,7 @@ export const es: Copy = {
     {
       name: "Plataforma de tarjetas corporativas",
       summary:
-        "Las empresas emiten tarjetas, mueven dinero por SPEI y sacan sus propios reportes a PDF y Excel. Las vistas por rol mantienen a finanzas, administradores y empleados fuera de los datos de los demás. La app móvil lleva la misma cuenta, con movimientos y transferencias en tiempo real.",
+        "Las empresas emiten tarjetas, consultan sus transacciones y sacan sus reportes a PDF y Excel. Las vistas por rol mantienen a finanzas, administradores y empleados fuera de los datos de los demás. La app móvil lleva la misma cuenta, con movimientos en tiempo real.",
       scope: "Arquitectura, todo el frontend web, funcionalidad móvil, parte de la API",
       stack: ["Next.js 15", "CSS Modules", "Zustand", "React Native", "Expo", "NestJS", "PostgreSQL", "Redis", "AWS S3"],
     },
@@ -193,7 +193,7 @@ export const es: Copy = {
       saveAs: "Jonathan-Rodriguez-CV-Frontend-es.pdf",
       headline: "Frontend Developer / React / Next.js / TypeScript / React Native / Fintech",
       summary:
-        "Frontend Developer con más de 3 años construyendo dashboards en producción con React, Next.js y TypeScript, sobre todo en fintech: tarjetas corporativas, transferencias SPEI, comisiones. Interfaz de punta a punta: componentes reutilizables, vistas por rol, autenticación, desempeño (más de 60% en Lighthouse), accesibilidad y apps en React Native (Expo). Cómodo también en la API de NestJS y PostgreSQL. Equipos ágiles, CI/CD y desarrollo asistido por IA.",
+        "Frontend Developer con más de 3 años construyendo dashboards en producción con React, Next.js y TypeScript, sobre todo en fintech: tarjetas corporativas, cobros recurrentes, comisiones. Interfaz de punta a punta: componentes reutilizables, vistas por rol, autenticación, desempeño (más de 60% en Lighthouse), accesibilidad y apps en React Native (Expo). Cómodo también en la API de NestJS y PostgreSQL. Equipos ágiles, CI/CD y desarrollo asistido por IA.",
     },
     labels: {
       summary: "Resumen profesional",
